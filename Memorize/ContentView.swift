@@ -11,14 +11,15 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-            .stroke(lineWidth: 3)
-            .padding(.horizontal)
-        .foregroundColor(.red)
+                .stroke(lineWidth: 3)
+                .padding(.horizontal)
+                .foregroundColor(.red)
             
-            Text("Hello, world!").foregroundColor(.orange).padding()
+            Text("Hello, world!")
+                .foregroundColor(.orange)
         }
         
-     
+        
     }
 }
 
